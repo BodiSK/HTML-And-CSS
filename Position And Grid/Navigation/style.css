@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+}
+
+aside {
+    float:right;
+}
+
+img.right {
+    float: right;
+}
+
+img.left {
+    float:left;
+}
+
+blockquote {
+    float: right;
+    font-family: Georgia, serif
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+cite {
+    float: right;
+}
+
+header > ul li {
+    float: left;
+    list-style-type: none;
+}
+
+header > ul {
+    float: right;
+}
+a {
+    color: rgb(0, 102, 0);
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0.3em;
+    box-shadow: 0 0 6em rgba(0, 0, 0, 0.25);
+}
