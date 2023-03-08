@@ -1,0 +1,6 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+body>header * {
+    display: inline-block;
+}

@@ -1,0 +1,8 @@
+.lorem{
+    font-size: 21px;
+    color: red;;
+}
+
+.lorem.text-2{
+    color: green;
+}
