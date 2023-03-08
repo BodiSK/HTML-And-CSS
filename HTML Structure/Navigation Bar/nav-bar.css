@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    Padding: 0px;
+    background-color: #CCCCCC;
+}
+
+ul  {
+    background-color: #444;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+li {
+    text-emphasis: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    
+    color: #ffffff;
+}

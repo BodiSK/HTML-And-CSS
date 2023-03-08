@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 250vw;
+    flex-wrap: wrap;
+}
+
+
+.container .week{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work{
+    width:100%;
+} 
+.container .notes{
+    width: 30%;
+}
+
+.container .notes .item{
+    height: 50%;
+    width: 50%;
+}
+
+.item{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    padding-right: 20px;
+}
+
+.work, 
+.rest{
+    width:100%;
+} 
+.container .week .item:nth-child(8), 
+.container .week .item:nth-child(9){
+    width: 50%;
+}
+

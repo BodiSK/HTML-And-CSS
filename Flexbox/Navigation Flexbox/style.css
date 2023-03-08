@@ -1,0 +1,15 @@
+header{
+    border-bottom: 2px rgb(0,0,0) solid;
+    display: flex;
+}
+header, ul{
+    display: flex;
+}
+header{
+    justify-content: space-between;
+}
+a{
+    color: rgb(0,153,0);
+    text-align: center;
+    margin: 8px;
+}
